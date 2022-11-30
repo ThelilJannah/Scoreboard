@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Basketball Score Counter</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <section class="scoreboard">
+
+  <h1 id="period">Period: </h1>
+  
+  <div class="main">
+
+  <div class="home-main">
+    <p class="header">HOME</p>
+    <p id="home-count">0</p>
+
+    <section class="increments">
+      <button class="btn" onclick="hincrementByOne()">+1</button>
+      <button class="btn" onclick="hincrementByTwo()">+2</button>
+      <button class="btn" onclick="hincrementByThree()">+3</button>
+    </section>
+
+    <p id="home-score">Scoreboard: </p>
+
+  </div>
+
+  <div class="guest-main">
+    <p class="header">GUEST</p>
+    <p id="guest-count">0</p>
+
+    <section class="increments">
+      <button class="btn" onclick="gincrementByOne()">+1</button>
+      <button class="btn" onclick="gincrementByTwo()">+2</button>
+      <button class="btn" onclick="gincrementByThree()">+3</button>
+    </section>
+
+    <p id="guest-score">Scoreboard: </p>
+
+  </div>
+
+</div>
+
+
+  <div class="buttons">
+  <button class= "gbtn" onclick="saveGame()">Save Game</button>
+  
+  <button class="gbtn" onclick="newGame()">New Game</button>
+  </div>
+
+</section>
+
+
+ 
+ 
+ 
+
+  <script src="main.js"></script>
+</body>
+</html>
